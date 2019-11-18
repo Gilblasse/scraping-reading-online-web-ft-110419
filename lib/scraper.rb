@@ -10,4 +10,7 @@ doc.search(".title-oE5vT4")
 
 courses = doc.css(".title-oE5vT4").text
 
+for course in courses
+  puts course
+end
 binding.pry
