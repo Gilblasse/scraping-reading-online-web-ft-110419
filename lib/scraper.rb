@@ -11,5 +11,5 @@ career_section = doc.xpath('//*[@id="2a778efd-1685-5ec6-9e5a-0843d6a88b7b"]/div/
 courses = career_section.search(".title-oE5vT4").map {|title| title.text}
 paragraphs = career_section.search("p").map {|content| content.text}
 
-courses.zip(paragraphs)
+courses_section = courses.zip(paragraphs)
 binding.pry
