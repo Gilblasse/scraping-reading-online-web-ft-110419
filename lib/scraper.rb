@@ -8,5 +8,5 @@ doc = Nokogiri::HTML(html)
 flatirons_header = doc.css("#header-content > div > h1").text
 doc.search(".title-oE5vT4")
 
-courses = doc.css(".title-oE5vT4").name
-courses.each {|course| puts course}
+p doc.css("#2a778efd-1685-5ec6-9e5a-0843d6a88b7b .inlineMobileLeft-2Yo002.imageTextBlockGrid3-2XAK6G")[0].attributes
+# courses.each {|course| puts course}
