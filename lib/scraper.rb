@@ -10,4 +10,4 @@ doc.search(".title-oE5vT4")
 
 courses = doc.css(".title-oE5vT4")[0..3]
 
-courses.each {|course| puts course.inner-text}
+courses.each {|course| puts course}
