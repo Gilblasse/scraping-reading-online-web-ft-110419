@@ -9,4 +9,5 @@ flatirons_header = doc.css("#header-content > div > h1").text
 doc.search(".title-oE5vT4")
 
 courses = doc.css(".title-oE5vT4")
+
 binding.pry
